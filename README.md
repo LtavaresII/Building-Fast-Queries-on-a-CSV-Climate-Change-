@@ -17,3 +17,5 @@ Put a interval between -1 and 1 on "analized_sentiment" method and it'll return 
 # Getting Two Messagens Whose Sum of a Score
 In this method, we give a score and it'll return two messagens whose sum of the "score return" column value is equal to the score.
 Put a score on "score" method and it'll return the messagens whose sum of the "score return" column value is equal to the score.
+#
+Author: Luís Fernando Tavares
