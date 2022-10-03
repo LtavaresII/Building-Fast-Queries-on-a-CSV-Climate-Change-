@@ -8,4 +8,10 @@ In this class we have 3 methods:
 - Finding a Comment Form the Id
 - Getting a Message Form the Analized Sentiments
 - Getting Two Messagens Whose Sum of a Score
+# Finding a Comment Form the Id
+In this method, we give a Id form the database and it'll return all information about the message
+# Getting a Message Form the Analized Sentiments
+In this method, we give a lower and upper bound of the "sentiment" column and it'll return all messages with sentiment values between the lower and upper bounds
+# Getting Two Messagens Whose Sum of a Score
+In this method, we give a score and it'll return two messagens whose sum of the "score return" column value is equal to the score.
 
