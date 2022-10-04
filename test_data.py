@@ -7,7 +7,7 @@ class Reddit():
         read_file = reader(opened_file)
         rows = list(read_file)
         self.header = rows[0]
-        self.rows = rows[1:]
+        self.rows = rows[1:1000]
         self.id_to_row = {}
         for row in self.rows:
             self.id_to_row[row[1]] = row
